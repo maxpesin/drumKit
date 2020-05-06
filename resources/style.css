@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "bleeding cowboys";
+    src: url('../assets/font/bleeding_cowboys/bleeding_cowboys.ttf') format("TrueType");
+}
+html {
+    background-image: url(../assets/img/hero_background.jpg);
+    background-color: #3b3838;
+    background-size: cover;
+    font-size: 10px;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    
+}
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.key {
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    transition: all .1s ease;
+    width: 10rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+}
+.playing {
+    transform: scale(1.1);
+    border: #f46161;
+    box-shadow: 0 0 0.2rem red;
+}
+.key kbd {
+    display: block;
+    font-size: 4rem;
+    font-family: "bleeding cowboys";
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: firebrick;
+    font-family: "bleeding cowboys";
+}
